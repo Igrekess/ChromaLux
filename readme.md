@@ -19,7 +19,7 @@ complementary foundations:
 - **SCS**, the tonal and chromatic processing domain shared by grading tools,
   perceptual masks, color probes, and scopes.
 
-ChromaLux 0.6.5 is a private beta for Apple Silicon Macs running macOS 26
+ChromaLux 0.6.5 is an alpha version for Apple Silicon Macs running macOS 26
 Tahoe or later.
 
 ### HALO — reconstructing the RAW image
