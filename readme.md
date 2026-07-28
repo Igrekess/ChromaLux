@@ -402,7 +402,7 @@ Detection or copying therefore does not guarantee decoding.
 
 ### Package contents
 
-- [ChromaLux-0.6.5.dmg](ChromaLux-0.6.5.dmg) — signed, notarized, and stapled
+- [ChromaLux-0.6.5.dmg](https://github.com/Igrekess/ChromaLux/releases/download/v0.6.5/ChromaLux-0.6.5.dmg) — signed, notarized, and stapled
   macOS application;
 - [French User Guide](documentation_utilisateur/Guide-utilisateur-ChromaLux-FR.pdf);
 - [English User Guide](documentation_utilisateur/ChromaLux-User-Guide-EN.pdf);
@@ -855,7 +855,7 @@ décodage.
 
 ### Contenu du paquet
 
-- [ChromaLux-0.6.5.dmg](ChromaLux-0.6.5.dmg) — application macOS signée,
+- [ChromaLux-0.6.5.dmg](https://github.com/Igrekess/ChromaLux/releases/download/v0.6.5/ChromaLux-0.6.5.dmg) — application macOS signée,
   notarisée et agrafée ;
 - [Guide utilisateur en français](documentation_utilisateur/Guide-utilisateur-ChromaLux-FR.pdf) ;
 - [User Guide in English](documentation_utilisateur/ChromaLux-User-Guide-EN.pdf) ;
