@@ -1,4 +1,4 @@
-# ChromaLux Studio 0.6.5
+# ChromaLux Studio 0.6.6
 
 [English](#english) · [Français](#français)
 
