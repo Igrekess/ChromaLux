@@ -19,7 +19,7 @@ complementary foundations:
 - **SCS**, the tonal and chromatic processing domain shared by grading tools,
   perceptual masks, color probes, and scopes.
 
-ChromaLux 0.6.5 is an alpha version for Apple Silicon Macs running macOS 26
+ChromaLux 0.6.8 is an alpha version for Apple Silicon Macs running macOS 26
 Tahoe or later.
 
 ### HALO — reconstructing the RAW image
@@ -82,7 +82,7 @@ limiting unwanted effects on the other components of the image. The same
 references are used by grading tools, masks, probes, and scopes, making the
 result more predictable and easier to control.
 
-### ChromaLux 0.6.5 feature inventory
+### ChromaLux 0.6.8 feature inventory
 
 #### Sessions, ingest, and original protection
 
@@ -237,7 +237,7 @@ certify a specific film, lab, and scanner combination.
 - Composite, Matte, recovered foreground, background estimate, despill
   difference, and confidence diagnostic views.
 
-Direct ChromaKey replacement inside Live View is not a 0.6.5 feature.
+Direct ChromaKey replacement inside Live View is not a 0.6.8 feature.
 
 The DNG produced by Double Exposure currently uses a generic sRGB-D65 matrix;
 retrieval of each source camera’s actual profile is deferred.
@@ -269,7 +269,7 @@ and the capabilities reported by each device.
   Black & White settings.
 - DCP/SCSP profile import and diagnostics.
 
-The D65 choice in the CC24 workflow is not fully operational in 0.6.5: the
+The D65 choice in the CC24 workflow is not fully operational in 0.6.8: the
 generator currently uses the D50 reference.
 
 #### Color probes, scopes, and Science activity
@@ -370,7 +370,7 @@ every workflow:
 - VoiceOver not replayed end to end, graphical Mask/Perspective handles that
   require a pointing device, and still-partial Perspective keyboard navigation.
 
-Export and printing remain SDR: ChromaLux 0.6.5 does not yet encode HDR10/PQ or
+Export and printing remain SDR: ChromaLux 0.6.8 does not yet encode HDR10/PQ or
 HLG files or their delivery metadata. Calibration **Scientific**,
 **Detector**, and **Geometric** panels are placeholders; Node Editor v1 is
 read-only; Clone/Heal are disabled.
@@ -402,7 +402,7 @@ Detection or copying therefore does not guarantee decoding.
 
 ### Package contents
 
-- [ChromaLux-0.6.5.dmg](https://github.com/Igrekess/ChromaLux/releases/download/v0.6.5/ChromaLux-0.6.5.dmg) — signed, notarized, and stapled
+- [ChromaLux-0.6.8.dmg](https://github.com/Igrekess/ChromaLux/releases/download/v0.6.8/ChromaLux-0.6.8.dmg) — signed, notarized, and stapled
   macOS application;
 - [French User Guide](documentation_utilisateur/Guide-utilisateur-ChromaLux-FR.pdf);
 - [English User Guide](documentation_utilisateur/ChromaLux-User-Guide-EN.pdf);
@@ -414,19 +414,6 @@ Detection or copying therefore does not guarantee decoding.
 2. Drag `ChromaLux.app` to the `Applications` folder.
 3. Launch ChromaLux from `Applications`.
 
-### Integrity
-
-| File | Size | SHA-256 |
-|---|---:|---|
-| `ChromaLux-0.6.5.dmg` | 199,458,755 bytes | `7db9f6425b8d65694d12fbc0753ee5b687f6d95c09e46eb598c83d2def2e4408` |
-| `Guide-utilisateur-ChromaLux-FR.pdf` | 1,918,493 bytes | `22617bcef657ee340b4f13935b8b4ebaa315a63c331b278d46e7927435c1ec1a` |
-| `ChromaLux-User-Guide-EN.pdf` | 1,743,707 bytes | `70a3341c29f0b742d2a8405b270a537aba8d3552d9212acd431bd61cec1ecb57` |
-
-Local verification:
-
-```sh
-shasum -a 256 ChromaLux-0.6.5.dmg
-```
 
 ## Français
 
@@ -446,7 +433,7 @@ deux fondations complémentaires :
 - **SCS**, le domaine de traitement tonal et chromatique partagé par les
   outils de grading, les masques perceptuels, les pipettes et les scopes.
 
-ChromaLux 0.6.5 est une version alpha pour Mac Apple Silicon sous
+ChromaLux 0.6.8 est une version alpha pour Mac Apple Silicon sous
 macOS 26 Tahoe ou une version plus récente.
 
 ### HALO — reconstruire le RAW
@@ -465,7 +452,7 @@ scène afin de conserver la précision et la réserve de hautes lumières pour l
 
 Le chemin Bayer est le moteur recommandé de ChromaLux ; AMaZE reste disponible
 comme solution alternative. Les capteurs Fujifilm X-Trans sont eux aussi
-traités par HALO dans la chaîne de production 0.6.5, même si cette route reste
+traités par HALO dans la chaîne de production 0.6.8, même si cette route reste
 signalée comme expérimentale. Les fichiers Sigma/Foveon X3F utilisent une
 route de décodage dédiée.
 
@@ -517,7 +504,7 @@ Les mêmes repères sont utilisés par les outils de grading, les masques, les
 pipettes et les scopes, ce qui rend le résultat plus prévisible et plus facile
 à contrôler.
 
-### Fonctionnalités de ChromaLux 0.6.5
+### Fonctionnalités de ChromaLux 0.6.8
 
 #### Sessions, import et protection des originaux
 
@@ -684,7 +671,7 @@ film–laboratoire–scanner.
   fond, différence de despill et confiance.
 
 Le remplacement ChromaKey directement dans le Live View n’est pas une fonction
-de la 0.6.5.
+de la 0.6.8.
 
 Le DNG issu de Double exposition utilise actuellement une matrice générique
 sRGB-D65 ; la récupération du profil réel de chaque boîtier reste différée.
@@ -855,7 +842,7 @@ décodage.
 
 ### Contenu du paquet
 
-- [ChromaLux-0.6.5.dmg](https://github.com/Igrekess/ChromaLux/releases/download/v0.6.5/ChromaLux-0.6.5.dmg) — application macOS signée,
+- [ChromaLux-0.6.8.dmg](https://github.com/Igrekess/ChromaLux/releases/download/v0.6.8/ChromaLux-0.6.8.dmg) — application macOS signée,
   notarisée et agrafée ;
 - [Guide utilisateur en français](documentation_utilisateur/Guide-utilisateur-ChromaLux-FR.pdf) ;
 - [User Guide in English](documentation_utilisateur/ChromaLux-User-Guide-EN.pdf) ;
@@ -863,20 +850,6 @@ décodage.
 
 ### Installation
 
-1. Ouvrir `ChromaLux-0.6.5.dmg`.
+1. Ouvrir `ChromaLux-0.6.8.dmg`.
 2. Faire glisser `ChromaLux.app` vers le dossier `Applications`.
 3. Lancer ChromaLux depuis `Applications`.
-
-### Intégrité
-
-| Fichier | Taille | SHA-256 |
-|---|---:|---|
-| `ChromaLux-0.6.5.dmg` | 199 458 755 octets | `7db9f6425b8d65694d12fbc0753ee5b687f6d95c09e46eb598c83d2def2e4408` |
-| `Guide-utilisateur-ChromaLux-FR.pdf` | 1 918 493 octets | `22617bcef657ee340b4f13935b8b4ebaa315a63c331b278d46e7927435c1ec1a` |
-| `ChromaLux-User-Guide-EN.pdf` | 1 743 707 octets | `70a3341c29f0b742d2a8405b270a537aba8d3552d9212acd431bd61cec1ecb57` |
-
-Vérification locale :
-
-```sh
-shasum -a 256 ChromaLux-0.6.5.dmg
-```
